@@ -46,3 +46,8 @@ SELECT
 FROM Order_Details OD 
 JOIN Products P ON P.ProductID = OD.ProductID;
 GO
+
+SELECT TOP 5 * FROM vw_OrderSummary;
+SELECT TOP 5 * FROM vw_ProductSales;
+SELECT TOP 5 * FROM vw_CustomerOrders;
+SELECT TOP 5 * FROM vw_InventoryStatus;
